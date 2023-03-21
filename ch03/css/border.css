@@ -1,0 +1,28 @@
+.wrap{
+    width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+h1{
+    /* 전체 테두리 */
+    /* border: 5px solid black; */
+
+    /* 아래 테두리 - 이런식으로 한방향 선긋기 가능*/
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+p{
+    border: 2px dotted #00f;
+    padding: 10px;
+}
+.bg{
+    background: url(../images/wolf.png) no-repeat;
+    height: 500px;
+    width: 500px;
+    background-size: cover;
+    margin: 0 auto;
+    /* 반지름의 길이 - 10px */
+    border-radius: 10px;
+}
+
