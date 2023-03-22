@@ -13,9 +13,14 @@ ul{
 }
 ul li{
     display: inline-block;
-    margin: 20px;
-    padding: 10px 0;
-}
+    margin: 0 20px;
+    /* 수직 정렬 - height 와 같으면 가운데 정렬 */
+    line-height: 80px;
+
+    /* margin : 20px; */
+    /* padding : 10px 0; */
+} 
+
 a{
     text-decoration: none;
     color: #fff;
