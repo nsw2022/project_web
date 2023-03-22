@@ -1,0 +1,125 @@
+HTML(Hyper Text Mark Up Language)
+
+브라우저는 기계어를 번역해서 보여주는 도구 대체로 크롬을 사용함
+
+
+맨첫줄에는 독타입을 사용함 -> 현재는 5버전
+
+head 영역에는 꾸미는게 주로 들어감
+body 본문
+p는 패러그레프
+h는 헤드라인
+
+<style>로 색상지정 가능
+<style>
+    안에 들어가는 스타일을 css라고 함
+    h2 {color: green; 이런식으로제어}
+</style>
+
+여러칸 공백 띄기 &nbsp;
+
+<pre></pre>작성한대로 화면에 보여짐
+
+클라이언트(웹브라우저) - 서버(네이버 서버컴퓨터)
+www.naver.com(실제로이번호는아님 100.35.127.55 같이 ip로 되어있음)
+로컬컴퓨터 주소 127.0.0.1:5500 port 번호가 뒤의 5500
+localhost:5500와 같음
+==================================================================
+3_17
+IDE(통합개발환경) vs code
+언어라 하기애매(인터프린터라그런듯?)
+HTML - tag 명령어, 구조
+CSS - 디자인
+
+JS
+
+SQL - 데이터베이스
+
+아래3개가 완벽한언어
+JS
+JAVA
+PYTHON
+
+IDE - 이클립스
+JAVA 
+
+IDE - 파이참
+PYTHON 
+
+페이지 연결
+<a href="웹 페이지">
+hyper reference
+
+사진
+<img src="이미지위치">
+
+메뉴를 만들어주는 태그
+<nav>
+===============================================================
+html4
+html5 - 시멘틱(semantic) : 의미
+<!Doctype html> <- html4에는 없음 html5부터 등장
+
+배치(일관성)
+display : block (수직)
+display : none (숨김)
+display : inline (수평)
+display : inline-block (수평인데 속성 간직함)
+
+배치(float-독립적)
+
+section 본문
+============================================================================
+ch04
+검색폼 - search.html
+method : post-보안, get-주소다보임
+<form>
+     <input type="text">
+</form>
+
+쿼리스프링형태
+서버.jsp?sform?sform="abc123"
+
+로그인폼 - login.html
+아이디    : <input type="text"> 
+비밀번호 : <input type="passworld"
+로그인 - 전송버튼 <input type="submit"
+
+라디오버튼
+radio-check-button
+<input type="radio">
+<input type="checkbox">
+
+<filedset>
+     <legend>소제목</legend>
+</filedset>
+
+여러줄 입력 textarea
+<textarea rows=3 cols=60></textarea>
+속성 placeholder -> hint 같이 미리보여주는 친구
+주의점 한줄에서 끝내야지 띄어쓰면 사라짐
+
+파일첨부(업로드) -> file.html
+<input type="file">
+css에서 cusor : pointer; 을하게되면 마우스가 손모양으로 변경
+<button> 태그
+onclick="" 자바 스크립트와 연동
+
+order.html <- 여러가지 기능 모음
+
+프런트엔드 - 웹 애플리케이션 개발자 : 백엔드(DB)
+프레임워크 - 리엑트(자바스크립트)
+
+프레임워크 - 웹 프로젝트
+1. 자바 스프링(부트) : 전자정부(중소기업) egov
+2. 파이썬 장고
+3. 자바스크립트 리엑트 - 프런트엔드 개발자
+4. 닷넷  ASP - c#
+
+백엔드 개발자 - 자바, 파이썬 .jsp django
+
+Git 저장방법
+1. git status
+2. git add.
+3. git commit -m "내용"
+4. git push
