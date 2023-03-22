@@ -1,0 +1,12 @@
+cd : 디렉터리 위치로 이동
+cd c: 루트 폴더로 이동
+cd.. 이전 폴더로 이동
+dir 파일목록보기
+
+git init git 초기화
+
+Git 저장방법
+1. git status
+2. git add.
+3. git commit -m "내용"
+4. git push
