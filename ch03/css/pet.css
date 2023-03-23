@@ -1,0 +1,40 @@
+*{margin: 0;padding: 0;}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    height: 80px;
+    background-color: #006699;
+}
+header #logo{
+    width: 200px; float: left;
+    line-height: 80px;
+}
+#logo:hover{background-color: #2fb2fd;}
+header h1{
+    color : #fff;
+    padding-left: 20px;
+}
+header nav{
+    width: 750px; flex: right;
+    line-height: 80px;
+    margin-right: 50px;
+}
+nav ul{list-style: none;}
+nav ul li{
+    float:right;
+}
+a{
+    display: block;
+    padding: 0px 8px;
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: #2fb2fd;
+    color: #fff;
+}

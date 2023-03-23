@@ -123,3 +123,25 @@ Git 저장방법
 2. git add.
 3. git commit -m "내용"
 4. git push
+============================================================================
+목록을 만드는 형태 ch02>dl.html
+배경 이미지를 붙히는 형태(스크롤해도 고정) ch03>bg-attachment.html
+이미지에 오디오파일 넣기 ch01>media 복사해서 ch03에 붙혀넣기 ch03>bg-audio.html
+이미지 보이고 안보이고 설정 ch03>visibility.html
+에제 ch01> Exercise > recuit.html
+텍스트와 이미지 교차 ch04>float-text.html
+
+html 구조 태그
+<header></header>
+<section></section>
+<footer></footer>
+layout2.html
+
+gnb - gloval navigation bar 
+lnb local navigation bar
+
+- 콘텐츠의 크기
+box-sizing: content-box
+
+- 콘텐츠의 크기 + 테두리
+box-sizing: border-box
