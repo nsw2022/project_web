@@ -3,6 +3,10 @@ cd c: 루트 폴더로 이동
 cd.. 이전 폴더로 이동
 dir 파일목록보기
 
+cd - change directory
+md - mack directory
+cd.. 상위폴더이동
+
 git init git 초기화
 
 Git 저장방법

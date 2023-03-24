@@ -145,3 +145,27 @@ box-sizing: content-box
 
 - 콘텐츠의 크기 + 테두리
 box-sizing: border-box
+
+<form action="join.jsp">
+<input type="text" id, name placeholder-"미리보기"> 한줄
+<input type="submit"> 전송
+<textarea> 여러줄입력
+<select id, name, value>~<option>
+</form>
+
+속성
+type, placeholder, autofocus(커서), required(필수조건), readonly(읽기 전용)
+
+============================================================================
+meta 태그
+브라우저에 보이는 내용이 아님 크롤러가 링크를 따라서 html 문서에 방문할 때 웹사이트는 meta 태그에 지정한 요약내용을 알려줌
+
+기획서(파워포인트, 피그마)
+제주 여행을 홍보하기 위한 사이트입니다
+와이어프레임
+index.html
+product.html - video_salad.html
+qna.html
+about_me.html
+style.css
+main.js 
