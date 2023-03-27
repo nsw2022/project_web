@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;}
+#container{
+    width: 960px;margin: 0 auto;
+}
+nav{height: 80px;}
+nav ul{
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+}
+ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+ul li a:link, a:visited{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+ul li a:hover, a:focus{background-color: black;color: white;}
+/* active는 맨 아래 위치 하도록 적용 */
+ul li a:active{background-color: #f00;}
