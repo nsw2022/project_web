@@ -105,6 +105,6 @@ td:nth-child(3), td:nth-child(4){text-align: center;}
 .top-section a{text-decoration: black;}
 .top-section a:visited{text-decoration: none; color:black}
 .top-section a:hover{color: blue;}
-#about-middle{line-height: 3em;border-bottom: 1px solid #555;padding-bottom: 40px;}
+#about-middle{line-height: 3em;border-bottom: 1px solid #555;padding-bottom: 10px;}
 #about-bottom{line-height: 3em;}
 
