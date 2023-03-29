@@ -196,3 +196,90 @@ ppt 10강
 속성 이름 앞에 붙혀 브라우저 별로 구분한다
 
 product에서 상품을 꾸밈
+============================================================================
+03_28
+register.html
+
+detail.html
+글 작성
+alert() 함수
+HTML - css,javascript
+<style>
+  css언어
+</style>
+
+<script>
+  window.alert("안녕하세요")
+</script>
+abc.html
+abc.jsp
+
+consloe1.html
+
+변수 - variable
+변수 선언 방법
+var 변수이름 = '값'
+var userid = 'sky123'
+var number = 10
+
+숫자형 
+int num-> 자바
+var num = 10 => 자바스크립트
+
+문자형
+char ch='a' -> 자바
+var ch ='a' -> 자바스크립트
+
+논리 
+and && 
+or ||
+
+op_choice.html
+삼항연산자
+(조건식) ? true : false
+
+var let const
+var 중복 선언 가능 재할당 가능 범위 전역범수
+let 중복 선언 불가능 재할당 가능 범위 지역함수
+const 중복선언 불가 재할당 불가 범위 지역함수
+
+paresInt(숫자, 문자) -> 정수로 변환 함수
+paresFloat(숫자,문자) -> 실수로 변환
+
+입력
+커맨드창
+prompt()
+alert()
+
+prompt1.html <-문자받음
+prompt2.html <-숫자받음
+add_calc<-두수를 입력받아 더함
+
+============================================================================
+짝수홀수를 판별하는 문제
+even_odd.html
+
+제어(control) - 조건문, 반복문
+조건문(if)
+if1.html
+조건문(조건){
+TRUE
+}else{
+실행문
+}
+다중if
+charge.html
+charge.js
+
+자리배치도
+seat.html
+
+whlie1.html
+
+key_repeat.html
+
+switch.html
+
+변수 - var, let
+상수 - const
+변경해서는 안되는 진리나 사실

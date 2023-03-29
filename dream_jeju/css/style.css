@@ -84,7 +84,8 @@ border-collapse: collapse; width: 700px; margin: 0 auto 20px auto;}
 td:nth-child(3), td:nth-child(4){text-align: center;}
 #tbl_board td:nth-child(1){width: 50px;}
 .btn{text-align: right; margin-right: 250px;}
-.btn button{padding: 10px 15px;margin-bottom: 50px;}
+.btn button{padding: 10px 15px;margin-bottom: 50px;cursor: pointer;}
+
 
 
 /* aboutme 스타일 */
@@ -108,3 +109,16 @@ td:nth-child(3), td:nth-child(4){text-align: center;}
 #about-middle{line-height: 3em;border-bottom: 1px solid #555;padding-bottom: 10px;}
 #about-bottom{line-height: 3em;}
 
+/* register */
+#tbl_write{
+    margin: 0 auto;
+    width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+/* #tbl_write input[type="text"] 강사님은 이걸로 설정하심 이게 좋은듯 */
+#tbl_write td textarea{width: 800px;}
+#tbl_frist_input{width: 800px;}
+.input_pad input{width: 100px;height: 50px;}
+.input_pad{text-align: center;}
