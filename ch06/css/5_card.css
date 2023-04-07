@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body{background: rgb(0, 0, 55);}
+#container{width: 300px;margin: 0 auto;}
+.card{width: 300px; height: 550px; background: #fff;
+    position: relative;}
+.word{position: absolute;top: 300px; left: 10px;
+     text-align: center;padding-right: 10px;}
+h2{font-size: 1.3em;}
+
+/* 태블릿 기준 */
+@media screen and (min-width:768px) {
+    #container{ width: 550px; }
+    .card{width: 550px; height: 250px; position: relative; margin:20px;}
+    .word{position: absolute;top: 50px;left: 310px;margin-right: 10px;}
+}
+
+/* PC버전 */
+@media screen and (min-width:1024px) {
+    #container{width: 1710px;
+        margin: 0px auto;
+        padding: 10px;}
+    .card{float: left;margin: 0 10px;}
+}
