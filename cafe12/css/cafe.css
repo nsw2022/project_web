@@ -26,9 +26,9 @@ section p {line-height: 3;}
 
 /* footer 스타일 */
 footer{height: 80px;border-top: 2px solid #222;}
-#bottom-menu{list-style: none;margin: 10px 10px 10px 50px;}
+#bottom-menu{list-style: none;margin: 10px 10px 10px 30px;}
 #bottom-menu li{display: inline-block; margin: 10px 0;
-    padding: 0 10px; border-right: 1px solid #ccc;}
+    padding: 0 10px; border-right: 1px solid #ccc; font-size: 12px;}
 #bottom-menu li:last-child{border: none;}
 #bottom-menu li a{text-decoration: none; color: #444;}
 
@@ -39,6 +39,7 @@ footer{height: 80px;border-top: 2px solid #222;}
     #intro, #choice{float: left; width: 50%;}
     #map{clear: left;}
     #map .photo{display: block;float: left;margin-right: 40px;}
+    #bottom-menu li{font-size: 16px;}
 }
 
 /* pc 기준 - 1200px 이상 */
@@ -52,4 +53,5 @@ footer{height: 80px;border-top: 2px solid #222;}
     #intro .photo, #map .photo{float: left; margin-right: 20px;}
     section p {line-height: 2.5;}
     #choice .photo{float: right;margin-right: 60px;}
+    #bottom-menu li{font-size: 16px;}
 }
