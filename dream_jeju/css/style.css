@@ -122,3 +122,10 @@ td:nth-child(3), td:nth-child(4){text-align: center;}
 #tbl_frist_input{width: 800px;}
 .input_pad input{width: 100px;height: 50px;}
 .input_pad{text-align: center;}
+
+
+@media screen and (min-width:780px){
+    /* body{
+        background-color: red;
+    } */
+}
